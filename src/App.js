@@ -5,7 +5,7 @@ import Login from './Login.js';
 function App() {
   return (
     <div className="App">
-      <Login style={{display: 'flex', justifyContent: 'center'}}/>
+      <Login />
     </div>
   );
 }

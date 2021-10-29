@@ -1,5 +1,6 @@
 html, body, #root {
   margin: 0;
+  padding: 0;
   height: 100%;
   width: 100%;
 }
@@ -10,6 +11,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: block;
 }
 
 code {
@@ -18,4 +20,9 @@ code {
 }
 
 #form {
+  display: inline-block;
+  margin: 0;
+  padding: 10px;
+  border-style: solid;
+  border-width: 2px;
 }
