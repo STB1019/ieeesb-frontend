@@ -45,8 +45,7 @@ code {
 
 }
 
-
-label, p{
+label, p {
   color: #ffffff;
   font-size: xx-large;
   font-weight: 400;
@@ -58,7 +57,7 @@ p {
   
 }
 
-.inputs{
+.inputs {
   margin: 7px;
   width: 300px;
   height: 40px;
@@ -69,7 +68,11 @@ p {
   
 }
 
-#btn1{
+.inputs:focus {
+  outline: 0px solid rgb(227,114,34);
+}
+
+#btn1 {
   margin: 7px;
   width: 150px;
   height: 40px;
