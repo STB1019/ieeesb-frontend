@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './Login.css';
 
 function Lista() {
   let info = { name: "", password: "" };
@@ -26,7 +27,7 @@ function Lista() {
         onInput={(e) => setName(e.target.value)}
       />
 
-      <br/>
+      <br />
 
       <input
         class="inputs"
@@ -37,9 +38,11 @@ function Lista() {
         onInput={(e) => setPassword(e.target.value)}
       />
 
-      <br/>
+      <br />
       <div>
-        <button id="btn1" onClick={() => saveInfo()}>Sign in</button>
+        <button id="btn1" onClick={() => saveInfo()}>
+          Sign in
+        </button>
       </div>
     </form>
   );
