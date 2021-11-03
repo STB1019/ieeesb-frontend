@@ -5,10 +5,12 @@ import Login from './Login.js';
 function Navbar() {
   return(
     <Router>
-      <ul>
-        <li><Link to=".">Home</Link></li>
-        <li><Link to="/login">Login</Link></li>
-      </ul>
+      <div id="Navbar">
+        <ul id="Listasx">
+          <li><Link to="." className="NavItem">Home</Link></li>
+          <li><Link to="/login" className="NavItem">Login</Link></li>
+        </ul>
+      </div>
       <Switch>
         <Route path="/login">
           <Login/>
