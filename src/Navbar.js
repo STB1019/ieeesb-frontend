@@ -8,7 +8,11 @@ function Navbar() {
       <div id="Navbar">
         <ul id="Listasx">
           <li><Link to="." className="NavItem">Home</Link></li>
-          <li><Link to="/login" className="NavItem">Login</Link></li>
+          <li>Progetti?</li>
+        </ul>
+        <ul id="Listadx">
+        <li><Link to="/login" className="NavItem">Login</Link></li>
+        <li>social?</li>
         </ul>
       </div>
       <Switch>

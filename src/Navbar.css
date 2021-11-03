@@ -14,6 +14,14 @@
     
 }
 
+#Listadx {
+    list-style-type: none;
+    float: right;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    
+}
 li {
     display: inline-block;
     padding-top: 5px;
@@ -26,4 +34,8 @@ li {
 .NavItem {
     color: #FFFFFF;
     text-decoration: none;
+}
+
+.NavItem:hover {
+    color: darkorange;
 }
