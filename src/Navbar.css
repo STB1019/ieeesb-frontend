@@ -1,41 +1,49 @@
 #Navbar {
-    background-color: #00629B;
-    width: 100%;
-    height: 45px;
-    align-items: center;
+  background-color: #00629b;
+  width: 100%;
+  height: 45px;
+  align-items: center;
 }
 
 #Listasx {
-    list-style-type: none;
-    float: left;
-    display: inline;
-    margin: 0;
-    padding: 0;
-    
+  list-style-type: none;
+  float: left;
+  display: inline;
+  margin: 0;
+  padding: 0;
 }
 
 #Listadx {
-    list-style-type: none;
-    float: right;
-    display: inline;
-    margin: 0;
-    padding: 0;
-    
+  list-style-type: none;
+  float: right;
+  display: inline;
+  margin: 0;
+  padding: 0;
 }
+
 li {
-    display: inline-block;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 10px;
-    padding-left: 10px;
-    font-size: x-large;
+  display: inline-block;
+  height: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: x-large;
 }
 
 .NavItem {
-    color: #FFFFFF;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .NavItem:hover {
-    color: darkorange;
+  color: darkorange;
+}
+
+.logoSocial {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  height: auto;
 }

@@ -1,7 +1,13 @@
 import { Link, BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./Navbar.css";
 import Login from "./Login.js";
-import instagram from "./logo-instagram.png";
+
+import instagram from "./logos/logo-instagram.png";
+import linkedin from "./logos/logo-linkedin.png";
+import youtube from "./logos/logo-youtube.png";
+import facebook from "./logos/logo-facebook.png";
+import twitter from "./logos/logo-twitter.png";
+import github from "./logos/logo-github.png";
 
 function Navbar() {
   return (
@@ -43,35 +49,35 @@ function Navbar() {
           <li>
             <img
               className="logoSocial"
-              src="logos/logo-linkedin.png"
+              src={linkedin}
               alt="LinkedIn"
             />
           </li>
           <li>
             <img
               className="logoSocial"
-              src="logos/logo-youtube.png"
+              src={youtube}
               alt="Youtube"
             />
           </li>
           <li>
             <img
               className="logoSocial"
-              src="logos/logo-facebook.png"
+              src={facebook}
               alt="Facebook"
             />
           </li>
           <li>
             <img
               className="logoSocial"
-              src="logos/logo-twitter.png"
+              src={twitter}
               alt="Twitter"
             />
           </li>
           <li>
             <img
               className="logoSocial"
-              src="logos/logo-github.png"
+              src={github}
               alt="GitHub"
             />
           </li>
