@@ -1,7 +1,7 @@
 import { useState } from "react";
 import './Login.css';
 
-function Lista() {
+function Login() {
   let info = { name: "", password: "" };
   const [name, setName] = useState("");
   const [password, setPassword] = useState("");
@@ -48,4 +48,4 @@ function Lista() {
   );
 }
 
-export default Lista;
+export default Login;

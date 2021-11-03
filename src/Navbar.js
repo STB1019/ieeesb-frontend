@@ -1,14 +1,20 @@
-import { Link } from 'react-router-dom';
+import { Link, BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './Navbar.css';
+import Login from './Login.js';
 
 function Navbar() {
   return(
-    <div>
+    <Router>
       <ul>
         <li><Link to=".">Home</Link></li>
-        <li><a href="./login">Login</a></li>
+        <li><Link to="/login">Login</Link></li>
       </ul>
-    </div>
+      <Switch>
+        <Route path="/login">
+          <Login/>
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
