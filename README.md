@@ -7,6 +7,7 @@ npm i -g nodemon
 npm install
 ```
 
+
 Poi installare anche le dependency del frontend con:
 
 ```bash
