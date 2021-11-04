@@ -1,0 +1,38 @@
+#form {
+  position: absolute;
+  display: inline-block;
+  margin: 0;
+  padding: 10px;
+  border-style: none;
+  border-width: 2px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #00629B;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.inputs {
+  margin: 7px;
+  width: 90%;
+  height: 40px;
+  border-radius: 10px 10px 10px 10px;
+  border-style: none;
+  font-size: medium;
+  text-indent: 5px;
+}
+
+.inputs:focus {
+  outline: 0px solid #FFA300;
+}
+
+#btn1 {
+  margin: 7px;
+  width: 40%;
+  height: 40px;
+  border-radius: 10px 10px 10px 10px;
+  border-style: none;
+  font-size: medium;
+  text-indent: 5px;
+  background: #FFA300;
+  color: #ffffff;
+}
