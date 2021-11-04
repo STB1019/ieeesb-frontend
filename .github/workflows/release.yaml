@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: '16'
       - name: Install packages
-        run: npm ci
+        run: cd frontend && npm ci
       - name: Install semantic release plugins
         run: npm i --save-dev @semantic-release/changelog @semantic-release/git
       - name: Frontend Tests 
