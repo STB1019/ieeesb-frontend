@@ -1,16 +1,16 @@
-import { useState } from "react";
-import "./Login.css";
+import React, { useState } from 'react';
+import './Login.css';
 
 function Login() {
-  let info = { name: "", password: "" };
-  const [name, setName] = useState("");
-  const [password, setPassword] = useState("");
+  const info = { name: '', password: '' };
+  const [name, setName] = useState('');
+  const [password, setPassword] = useState('');
 
   const saveInfo = () => {
     info.name = name;
     info.password = password;
-    setName("");
-    setPassword("");
+    setName('');
+    setPassword('');
   };
 
   return (
@@ -19,7 +19,7 @@ function Login() {
       <br />
 
       <input
-        class="inputs"
+        className="inputs"
         type="text"
         name="username"
         placeholder="Username"
@@ -30,7 +30,7 @@ function Login() {
       <br />
 
       <input
-        class="inputs"
+        className="inputs"
         type="password"
         name="password"
         placeholder="Password"
@@ -40,7 +40,7 @@ function Login() {
 
       <br />
       <div>
-        <button id="btn1" onClick={() => saveInfo()}>
+        <button type="button" id="btn1" onClick={() => saveInfo()}>
           Sign in
         </button>
       </div>

@@ -1,18 +1,21 @@
-import { Link, BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import "./Navbar.css";
-import Sidebar from "./Sidebar.js";
-import Login from "./Login.js";
-import Projects from "./Projects.js";
-import AboutUs from "./AboutUs.js";
+import {
+  Link, BrowserRouter as Router, Switch, Route,
+} from 'react-router-dom';
+import React from 'react';
+import './Navbar.css';
+import Sidebar from '../Sidebar/Sidebar';
+import Login from '../Login/Login';
+import Projects from '../Projects/Projects';
+import AboutUs from '../AboutUs/AboutUs';
 
-import instagram from "./logos/logo-instagram.png";
-import linkedin from "./logos/logo-linkedin.png";
-import youtube from "./logos/logo-youtube.png";
-import facebook from "./logos/logo-facebook.png";
-import twitter from "./logos/logo-twitter.jpg";
-import github from "./logos/logo-github.png";
+import instagram from '../logos/logo-instagram.png';
+import linkedin from '../logos/logo-linkedin.png';
+import youtube from '../logos/logo-youtube.png';
+import facebook from '../logos/logo-facebook.png';
+import twitter from '../logos/logo-twitter.jpg';
+import github from '../logos/logo-github.png';
 
-function Navbar() {
+export default function Navbar() {
   return (
     <Router>
       <div id="Navbar">
@@ -88,5 +91,3 @@ function Navbar() {
     </Router>
   );
 }
-
-export default Navbar;
