@@ -6,15 +6,15 @@ function Login() {
   const [name, setName] = useState("");
   const [password, setPassword] = useState("");
 
-  const saveInfo = () => {
+  /*const saveInfo = () => {
     info.name = name;
     info.password = password;
     setName("");
     setPassword("");
-  };
+  };*/
 
   return (
-    <form id="form">
+    <form action="./post" method="post" id="form">
       <p>Accedi allo Student Branch IEEE</p>
       <br />
 
@@ -40,7 +40,7 @@ function Login() {
 
       <br />
       <div>
-        <button id="btn1" onClick={() => saveInfo()}>
+        <button id="btn1" type="submit">
           Sign in
         </button>
       </div>
