@@ -1,12 +1,12 @@
-name: Release
+name: PullRequest
 
 on:
-  push:
+  pull_request:
     branches: [main, beta]
 
 jobs:
   release:
-    name: Release
+    name: PullRequest
     runs-on: ubuntu-latest
 
     steps:
@@ -18,15 +18,9 @@ jobs:
           node-version: '16'
       - name: Install packages
         run: cd frontend && npm ci && cd ../backend && npm ci
-      - name: Install semantic release plugins
-        run: npm i --save-dev @semantic-release/changelog @semantic-release/git
       - name: Frontend Tests 
         run: cd frontend && npm run test
       - name: Backend Tests
         run: cd backend && npm run test
       - name: Build Frontend
         run: cd frontend && npm run build
-      - name: Release
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
-        run: cd frontend && npx semantic-release
