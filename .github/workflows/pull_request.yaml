@@ -1,0 +1,26 @@
+name: PullRequest
+
+on:
+  pull_request:
+    branches: [main, beta]
+
+jobs:
+  release:
+    name: PullRequest
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: NodeJS
+        uses: actions/setup-node@v1
+        with:
+          node-version: '16'
+      - name: Install packages
+        run: cd frontend && npm ci && cd ../backend && npm ci
+      - name: Frontend Tests 
+        run: cd frontend && npm run test
+      - name: Backend Tests
+        run: cd backend && npm run test
+      - name: Build Frontend
+        run: cd frontend && npm run build
