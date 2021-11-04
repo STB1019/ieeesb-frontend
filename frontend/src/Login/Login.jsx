@@ -1,16 +1,16 @@
-import { useState } from "react";
-import "./Login.css";
+import React, { useState } from 'react';
+import './Login.css';
 
-function Login() {
-  const [name, setName] = useState("");
-  const [password, setPassword] = useState("");
+export default function Login() {
+  const [name, setName] = useState('');
+  const [password, setPassword] = useState('');
 
-  /*const saveInfo = () => {
+  /* const saveInfo = () => {
     info.name = name;
     info.password = password;
     setName("");
     setPassword("");
-  };*/
+  }; */
 
   return (
     <form action="./post" method="post" id="form">
@@ -18,7 +18,7 @@ function Login() {
       <br />
 
       <input
-        class="inputs"
+        className="inputs"
         type="text"
         name="username"
         placeholder="Username"
@@ -29,7 +29,7 @@ function Login() {
       <br />
 
       <input
-        class="inputs"
+        className="inputs"
         type="password"
         name="password"
         placeholder="Password"
@@ -46,5 +46,3 @@ function Login() {
     </form>
   );
 }
-
-export default Login;
