@@ -18,7 +18,7 @@ function App() {
           Learn React
         </a>
         <br />
-        <form action="../../post" method="post" className="form">
+        <form action="./post" method="post" className="form">
           <div>
             <label htmlFor="nome">Nome:</label><br />
             <input type="text" name="nome" id="nome" />
