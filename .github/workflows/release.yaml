@@ -21,7 +21,7 @@ jobs:
       - name: Install semantic release plugins
         run: npm i --save-dev @semantic-release/changelog @semantic-release/git
       - name: Frontend Tests 
-        run: cd frontend && npm test
+        run: cd frontend && npm run test
       - name: Backend Tests
         run: cd backend && npm run test
       - name: Build Frontend
