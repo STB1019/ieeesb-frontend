@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 import SidebarData from './SidebarData';
 import './Sidebar.css';
 
-function Sidebar() {
+export default function Sidebar() {
   const [sidebar, setSidebar] = useState(false);
   const showSidebar = () => setSidebar(!sidebar);
 
@@ -39,5 +39,3 @@ function Sidebar() {
     </div>
   );
 }
-
-export default Sidebar;
