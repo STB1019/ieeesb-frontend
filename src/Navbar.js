@@ -20,54 +20,54 @@ function Navbar() {
           <li>
             <Sidebar />
           </li>
-          <li>
+          <li className="scalable">
             <Link to="." className="NavItem">
               Home
             </Link>
           </li>
-          <li>
+          <li className="scalable">
             <Link to="/projects" className="NavItem">
               Progetti
             </Link>
           </li>
-          <li>
+          <li className="scalable">
             <Link to="/aboutus" className="NavItem">
               About Us
             </Link>
           </li>
         </ul>
         <ul className="listaLink" id="Listadx">
-          <li>
+          <li className="scalable">
             <Link to="/login" className="NavItem">
               Login
             </Link>
           </li>
-          <li>
+          <li className="scalable">
             <a href="https://www.instagram.com/ieee_sb_brescia/">
               <img className="logoSocial" src={instagram} alt="Instagram" />
             </a>
           </li>
-          <li>
+          <li className="scalable">
             <a href="https://www.linkedin.com/company/stb1019">
               <img className="logoSocial" src={linkedin} alt="LinkedIn" />
             </a>
           </li>
-          <li>
+          <li className="scalable">
             <a href="https://www.youtube.com/channel/UCStUvurgwwAgs_W-k5Dci3Q">
               <img className="logoSocial" src={youtube} alt="Youtube" />
             </a>
           </li>
-          <li>
+          <li className="scalable">
             <a href="https://www.facebook.com/stb01019/">
               <img className="logoSocial" src={facebook} alt="Facebook" />
             </a>
           </li>
-          <li>
+          <li className="scalable">
             <a href="https://twitter.com/stb1019">
               <img className="logoSocial" src={twitter} alt="Twitter" />
             </a>
           </li>
-          <li>
+          <li className="scalable">
             <a href="https://github.com/STB1019">
               <img className="logoSocial" src={github} alt="GitHub" />
             </a>

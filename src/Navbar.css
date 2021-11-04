@@ -35,7 +35,13 @@ li {
 
 li:hover {
   background-color: #FFA300;
+  
 }
+
+.scalable:hover {
+  transform: scale(1.05);
+}
+
 
 .NavItem {
   

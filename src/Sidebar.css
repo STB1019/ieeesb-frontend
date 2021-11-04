@@ -3,9 +3,9 @@
   height: 30px;
   padding: 5px 0 0 0;
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
-  z-index: 0;
+  z-index: 10;
 }
 
 .menu-bars {
@@ -69,6 +69,7 @@
 
 .navbar-toggle:hover, .nav-text:hover {
     background-color: #00629B;
+    transform: scale(1);
 }
 
 span {
