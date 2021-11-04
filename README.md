@@ -27,3 +27,9 @@ npm run dev
 ```
 
 Se tutto va bene dovrebbe aprirsi una pagina con il logo di react e un bottone. Se lo premete dovrebbe scrivervi "Connected to React!" nel terminale in cui avete runnato il backend.
+
+## Credenziali
+
+__MongoDB__
+
+Username: stb01019 | Password: Kx7RNiWbLNYL4cpW

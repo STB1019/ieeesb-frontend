@@ -19,7 +19,24 @@ function App() {
         </a>
         <br />
         <form action="../../post" method="post" className="form">
-          <button type="submit">Connected?</button>
+          <div>
+            <label htmlFor="nome">Nome:</label><br />
+            <input type="text" name="nome" id="nome" />
+          </div>
+
+          <div>
+            <label htmlFor="email">Email:</label><br />
+            <input type="email" name="email" id="email" />
+          </div>
+
+          <div>
+            <label htmlFor="password">Password:</label><br />
+            <input type="password" name="password" id="password" />
+          </div>
+
+          <div>
+            <input type="submit" name="submit" value="LogIn" />
+          </div>
         </form>
       </header>
     </div>
