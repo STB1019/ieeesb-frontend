@@ -30,3 +30,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
         run: cd frontend && npx semantic-release
+
