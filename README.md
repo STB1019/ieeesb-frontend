@@ -2,6 +2,8 @@
 
 Per utilizzare il sito, installare _nodemon_ globalmente, insieme a tutte le dependency del backend, con (consiglio di utilizare il terminale integrato di VS Code):
 
+
+
 ```bash
 npm i -g nodemon
 npm install
