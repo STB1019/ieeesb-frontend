@@ -29,5 +29,5 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
-        run: cd frontend && npx semantic-release
+        run: cd frontend && npx semantic-release --debug
 
