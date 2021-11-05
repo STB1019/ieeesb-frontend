@@ -17,10 +17,8 @@ jobs:
         with:
           node-version: '16'
       - name: Install packages
-        run: cd frontend && npm ci && cd ../backend && npm ci
-      - name: Frontend Tests 
-        run: cd frontend && npm run test
-      - name: Backend Tests
-        run: cd backend && npm run test
+        run: npm ci
+      - name: Tests 
+        run: npm run test
       - name: Build Frontend
-        run: cd frontend && npm run build
+        run: npm run build
