@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/STB1019/ieeesb-frontend/compare/v1.0.3...v1.1.0) (2021-11-05)
+
+
+### Features
+
+* not really a feat but w/e ([3b678f7](https://github.com/STB1019/ieeesb-frontend/commit/3b678f7d9f46b79eade3213c47cf6a8f866cb04c))
+
 ## [1.0.3](https://github.com/STB1019/Site/compare/v1.0.2...v1.0.3) (2021-11-05)
 
 
