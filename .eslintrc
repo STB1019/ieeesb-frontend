@@ -11,6 +11,9 @@
         "browser": true,
         "node": true
     },
+    "rules": {
+        "linebreak-style": 0
+    },
     "globals": {
         "document": false
     }
