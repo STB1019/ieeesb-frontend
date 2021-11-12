@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/STB1019/ieeesb-frontend/compare/v1.1.0...v1.2.0) (2021-11-12)
+
+
+### Features
+
+* navbar iniziata ([cbb13f3](https://github.com/STB1019/ieeesb-frontend/commit/cbb13f32812fe5b08ce5651c77135a73a230e180))
+* new start ([42c3e27](https://github.com/STB1019/ieeesb-frontend/commit/42c3e278d27ee57c9f791aa158c642eefcbed414))
+
 # [1.1.0](https://github.com/STB1019/ieeesb-frontend/compare/v1.0.3...v1.1.0) (2021-11-05)
 
 
