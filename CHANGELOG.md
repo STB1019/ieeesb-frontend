@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/STB1019/ieeesb-frontend/compare/v1.3.0...v1.3.1) (2022-03-09)
+
+
+### Bug Fixes
+
+* sistemazione latest ([4434f7f](https://github.com/STB1019/ieeesb-frontend/commit/4434f7fd567cbfa40c615ff2ee780236da8e31ad))
+
 # [1.3.0](https://github.com/STB1019/ieeesb-frontend/compare/v1.2.0...v1.3.0) (2022-03-09)
 
 
