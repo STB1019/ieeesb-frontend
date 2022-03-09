@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/STB1019/ieeesb-frontend/compare/v1.2.0...v1.3.0) (2022-03-09)
+
+
+### Features
+
+* inizio della sezione latest ([0f04e4f](https://github.com/STB1019/ieeesb-frontend/commit/0f04e4fa3e555f715a4c0d420955bef82bf266fd))
+
 # [1.2.0](https://github.com/STB1019/ieeesb-frontend/compare/v1.1.0...v1.2.0) (2021-11-12)
 
 
