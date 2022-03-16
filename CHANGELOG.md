@@ -1,3 +1,13 @@
+## [1.3.2](https://github.com/STB1019/ieeesb-frontend/compare/v1.3.1...v1.3.2) (2022-03-16)
+
+
+### Bug Fixes
+
+* funziona ([a985b7e](https://github.com/STB1019/ieeesb-frontend/commit/a985b7e8fe6c0d2ea01a414c1d151e93a6ca0ccf))
+* prova ([7d5cf86](https://github.com/STB1019/ieeesb-frontend/commit/7d5cf86e1e93ff77ad454d43b2aa6acdf876c90b))
+* prova2 ([d388a80](https://github.com/STB1019/ieeesb-frontend/commit/d388a80d66b49eda96f310140daed823b507ff60))
+* prova3 ([6a849ed](https://github.com/STB1019/ieeesb-frontend/commit/6a849ed4b2be55fe36f4bc4edb1f1cd874a9f2bf))
+
 ## [1.3.1](https://github.com/STB1019/ieeesb-frontend/compare/v1.3.0...v1.3.1) (2022-03-09)
 
 
