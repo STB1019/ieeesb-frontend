@@ -4,7 +4,7 @@ import Box from '@mui/material/Box';
 import Casa from '../assets/prova.jpg';
 
 export default function Latest() {
-  const height = 380;
+  const height = 38;
   return (
     <Box
       sx={{
