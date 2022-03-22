@@ -1,0 +1,14 @@
+#latest {
+  width: 67%;
+  margin: 30px auto 30px auto;
+}
+
+#latest-title {
+  margin: 10px 0;
+  font-weight: bold;
+  color: #00629B;
+}
+
+.article-list {
+  display: flex;
+}

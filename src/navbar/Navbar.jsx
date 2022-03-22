@@ -17,8 +17,8 @@ import './Navbar.css';
 import {
   Link, BrowserRouter as Router, Switch, Route,
 } from 'react-router-dom';
-import Projects from '../Projects/Projects';
-import AboutUs from '../AboutUs/AboutUs';
+import Projects from '../projects/Projects';
+import AboutUs from '../about-us/AboutUs';
 
 export default function ButtonAppBar() {
   return (

@@ -14,7 +14,8 @@
     "rules": {
         "linebreak-style": 0,
         "no-trailing-spaces": 0,
-        "react/jsx-indent-props": 0
+        "react/jsx-indent-props": 0,
+        "max-len": 0,
     },
     "globals": {
         "document": false
