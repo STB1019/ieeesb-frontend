@@ -1,8 +1,7 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import Article from '../article/Article';
-import Article2 from '../article/Article2';
+import LatestArticle from '../article/LatestArticle';
 import './Latest.css';
 
 export default function Latest() {
@@ -12,19 +11,19 @@ export default function Latest() {
         Latest News
       </Typography>
       <Box className="article-list">
-        <Article />
-        <Article2 />
+        <LatestArticle />
+        <LatestArticle />
+        <LatestArticle />
       </Box>
       <Box className="article-list">
-        <Article />
-        <Article2 />
-        <Article />
+        <LatestArticle />
+        <LatestArticle />
+        <LatestArticle />
       </Box>
       <Box className="article-list">
-        <Article />
-        <Article />
-        <Article />
-        <Article />
+        <LatestArticle />
+        <LatestArticle />
+        <LatestArticle />
       </Box>
     </Box>
   );

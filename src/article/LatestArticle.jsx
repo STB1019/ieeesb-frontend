@@ -2,9 +2,9 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Casa from '../assets/prova.jpg';
-import './Article.css';
+import './LatestArticle.css';
 
-export default function Article() {
+export default function LatestArticle() {
   return (
     <Box id="whole">
       <Box id="image-container">
@@ -16,7 +16,7 @@ export default function Article() {
             Programma Arnaldo 2022
           </Typography>
           <Typography variant="subtitle1">
-            Gira una fake-news: Alessio non sarà un insegnante. Ci dispiace, ma ha di meglio da fare. Eh vabbé, sopravviveremo T_T. Gira una fake-news: Alessio non sarà un insegnante. Ci dispiace, ma ha di meglio da fare. Eh vabbé, sopravviveremo T_T. Gira una fake-news: Alessio non sarà un insegnante. Ci dispiace, ma ha di meglio da fare. Eh vabbé, sopravviveremo T_T.
+            Gira una fake-news: Alessio non sarà un insegnante. Ci dispiace, ma ha di meglio da fare. Eh vabbé, sopravviveremo T_T
           </Typography>
         </Box>
       </Box>

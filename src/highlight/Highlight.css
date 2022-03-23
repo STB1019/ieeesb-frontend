@@ -1,0 +1,23 @@
+#highlight {
+    width: 67%;
+    margin: 30px auto 30px auto;
+}
+
+#whole-h {
+    display: flex;
+}
+
+.flex {
+    width: 50%;
+    display: flex;
+}
+
+#a {
+    width: 50%;
+    float: left;
+}
+
+#b, #c, #d {
+    width: 50%;
+    float: left;
+}
