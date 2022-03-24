@@ -1,21 +1,20 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import HighlightArticle from '../article/HighlightArticle';
-import HighlightArticle2 from '../article/HighlightArticle2';
 import './Highlight.css';
 
 export default function Highlight() {
   return (
     <Box id="highlight">
-      <Box id="a">
-        <HighlightArticle2 />
+      <Box id="left-h">
+        <HighlightArticle showSubtitle />
       </Box>
-      <Box id="b">
-        <Box id="c">
+      <Box id="right-h">
+        <Box id="upper-right-h">
           <HighlightArticle />
           <HighlightArticle />
         </Box>
-        <Box id="d">
+        <Box id="lower-right-h">
           <HighlightArticle />
           <HighlightArticle />
         </Box>

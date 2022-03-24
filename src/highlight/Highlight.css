@@ -1,23 +1,21 @@
 #highlight {
     width: 67%;
+    height: 60vh;
     margin: 30px auto 30px auto;
-}
-
-#whole-h {
     display: flex;
 }
 
-.flex {
+#left-h {
     width: 50%;
+    height: 60vh;
     display: flex;
 }
 
-#a {
+#right-h {
     width: 50%;
-    float: left;
 }
 
-#b, #c, #d {
-    width: 50%;
-    float: left;
+#upper-right-h, #lower-right-h {
+    height: 30vh;
+    display: flex;
 }
