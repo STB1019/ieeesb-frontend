@@ -7,23 +7,25 @@ import './Latest.css';
 export default function Latest() {
   return (
     <Box id="latest">
-      <Typography variant="h2" id="latest-title">
-        Latest News
-      </Typography>
-      <Box className="article-list">
-        <LatestArticle />
-        <LatestArticle />
-        <LatestArticle />
-      </Box>
-      <Box className="article-list">
-        <LatestArticle />
-        <LatestArticle />
-        <LatestArticle />
-      </Box>
-      <Box className="article-list">
-        <LatestArticle />
-        <LatestArticle />
-        <LatestArticle />
+      <Box id="l-whole">
+        <Typography variant="h2" id="latest-title">
+          Latest News
+        </Typography>
+        <Box className="article-list">
+          <LatestArticle />
+          <LatestArticle />
+          <LatestArticle />
+        </Box>
+        <Box className="article-list">
+          <LatestArticle />
+          <LatestArticle />
+          <LatestArticle />
+        </Box>
+        <Box className="article-list">
+          <LatestArticle />
+          <LatestArticle />
+          <LatestArticle />
+        </Box>
       </Box>
     </Box>
   );

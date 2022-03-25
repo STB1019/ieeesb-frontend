@@ -6,18 +6,19 @@ import Casa from '../assets/prova.jpg';
 import './HighlightArticle.css';
 
 export default function HighlightArticle({ showSubtitle }) {
+  /* ha = highlight article */
   return (
-    <Box id="whole-ha">
-      <Box id="image-container-ha">
-        <Box id="image-ha" style={{ backgroundImage: `url(${Casa})` }}>
-          <Box id="text-container-ha">
-            <Box id="text-margin-ha">
-              <Box id="text-ha">
-                <Typography variant="h6" id="article-title-ha" color="common.white">
+    <Box id="ha-whole">
+      <Box id="ha-image-container">
+        <Box id="ha-image" style={{ backgroundImage: `url(${Casa})` }}>
+          <Box id="ha-text-container">
+            <Box id="ha-text-margin">
+              <Box id="ha-text">
+                <Typography variant="h6" id="ha-article-title">
                   Programma Arnaldo 2022
                 </Typography>
                 { showSubtitle === true && (
-                <Typography variant="subtitle1" color="common.white">
+                <Typography variant="subtitle1" id="ha-article-subtitle">
                   Gira una fake-news: Alessio non sarà un insegnante. Ci dispiace, ma ha di meglio da fare. Eh vabbé, sopravviveremo T_T
                 </Typography>
                 )}
@@ -31,5 +32,7 @@ export default function HighlightArticle({ showSubtitle }) {
 }
 
 HighlightArticle.propTypes = {
-  showSubtitle: PropTypes.bool.isRequired,
+  showSubtitle: PropTypes.bool,
 };
+
+HighlightArticle.defaultProps = { showSubtitle: false };

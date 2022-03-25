@@ -6,17 +6,19 @@ import './Highlight.css';
 export default function Highlight() {
   return (
     <Box id="highlight">
-      <Box id="left-h">
-        <HighlightArticle showSubtitle />
-      </Box>
-      <Box id="right-h">
-        <Box id="upper-right-h">
-          <HighlightArticle />
-          <HighlightArticle />
+      <Box id="h-whole">
+        <Box id="h-left">
+          <HighlightArticle showSubtitle />
         </Box>
-        <Box id="lower-right-h">
-          <HighlightArticle />
-          <HighlightArticle />
+        <Box id="h-right">
+          <Box id="h-upper-right">
+            <HighlightArticle />
+            <HighlightArticle />
+          </Box>
+          <Box id="h-lower-right">
+            <HighlightArticle />
+            <HighlightArticle />
+          </Box>
         </Box>
       </Box>
     </Box>

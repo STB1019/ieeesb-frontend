@@ -5,14 +5,15 @@ import Casa from '../assets/prova.jpg';
 import './LatestArticle.css';
 
 export default function LatestArticle() {
+  /* la = latest article */
   return (
-    <Box id="whole">
-      <Box id="image-container">
-        <Box id="image" style={{ backgroundImage: `url(${Casa})` }} />
+    <Box id="la-whole">
+      <Box id="la-image-container">
+        <Box id="la-image" style={{ backgroundImage: `url(${Casa})` }} />
       </Box>
-      <Box id="text-container">
-        <Box id="text">
-          <Typography variant="h5" id="article-title">
+      <Box id="la-text-container">
+        <Box id="la-text">
+          <Typography variant="h5" id="la-article-title">
             Programma Arnaldo 2022
           </Typography>
           <Typography variant="subtitle1">
