@@ -1,3 +1,19 @@
+# [1.4.0](https://github.com/STB1019/ieeesb-frontend/compare/v1.3.2...v1.4.0) (2022-03-25)
+
+
+### Bug Fixes
+
+* eliminazione react-aspect-ratio ([a65b0c4](https://github.com/STB1019/ieeesb-frontend/commit/a65b0c4a8e17c8f694d99885f7c9ed402ac2e597))
+* inizio articolo con css ([eac6299](https://github.com/STB1019/ieeesb-frontend/commit/eac6299e76780db18962b3aa733d574c9c443b84))
+* latest ora funzionante, per pc ([92b4091](https://github.com/STB1019/ieeesb-frontend/commit/92b40912a30374e046a6c49e457f1f6fe1a76b69))
+
+
+### Features
+
+* highlight completato; manca responsiveness ([33361bc](https://github.com/STB1019/ieeesb-frontend/commit/33361bcf4ccadc05db70d7f77fca4f40c76f8b43))
+* inizio parte highlight ([78a8990](https://github.com/STB1019/ieeesb-frontend/commit/78a899031f822a5c8859e12806db5d7d24ea5220))
+* responsiveness fatta, sia per highlight che per latest ([e4d169f](https://github.com/STB1019/ieeesb-frontend/commit/e4d169f7e11ca70e8fe16534357cd3201f146229))
+
 ## [1.3.2](https://github.com/STB1019/ieeesb-frontend/compare/v1.3.1...v1.3.2) (2022-03-16)
 
 
