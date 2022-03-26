@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/STB1019/ieeesb-frontend/compare/v1.4.1...v1.4.2) (2022-03-26)
+
+
+### Bug Fixes
+
+* aggiunta file article ([2f12a11](https://github.com/STB1019/ieeesb-frontend/commit/2f12a11dea02a58856405a14ebb9d32f1f3f1cf1))
+
 ## [1.4.1](https://github.com/STB1019/ieeesb-frontend/compare/v1.4.0...v1.4.1) (2022-03-26)
 
 
