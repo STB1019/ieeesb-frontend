@@ -1,9 +1,10 @@
 import React from 'react';
 import Box from '@mui/material/Box';
-import HighlightArticle from '../article/HighlightArticle';
+import HighlightArticle from './HighlightArticle';
 import './Highlight.css';
 
 export default function Highlight() {
+  /* h = highlight */
   return (
     <Box id="highlight">
       <Box id="h-whole">

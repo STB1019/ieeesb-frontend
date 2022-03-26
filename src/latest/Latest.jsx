@@ -1,10 +1,11 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import LatestArticle from '../article/LatestArticle';
+import LatestArticle from './LatestArticle';
 import './Latest.css';
 
 export default function Latest() {
+  /* l = latest */
   return (
     <Box id="latest">
       <Box id="l-whole">
