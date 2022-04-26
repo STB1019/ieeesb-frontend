@@ -30,6 +30,13 @@ export default function App() {
   );
 }
 
+/*
+funzione fetch (javascript): passi indirizzo (IP)
+API service: classe esterna per uniformare richieste al server
+es. funzione getpost con parametri URL e parametri URL (?param=value&param=...)
+
+*/
+
 /* 
 <Router>
   <Link className="link" to="/">
