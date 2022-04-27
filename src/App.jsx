@@ -13,11 +13,12 @@ export default function App() {
   return (
     <div className="App">
       <Navbar />
+      <Article />
       <Router>
         <Link to="/article">
           <Highlight />
         </Link>
-        <Link to="/">
+        <Link to="/article">
           <Latest />
         </Link>
         <Switch>
@@ -29,14 +30,12 @@ export default function App() {
     </div>
   );
 }
-
 /*
 funzione fetch (javascript): passi indirizzo (IP)
 API service: classe esterna per uniformare richieste al server
 es. funzione getpost con parametri URL e parametri URL (?param=value&param=...)
 
 */
-
 /* 
 <Router>
   <Link className="link" to="/">
