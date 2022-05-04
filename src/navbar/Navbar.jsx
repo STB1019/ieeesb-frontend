@@ -15,10 +15,8 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 import './Navbar.css';
 import {
-  Link, BrowserRouter as Router, Switch, Route,
+  Link, BrowserRouter as Router,
 } from 'react-router-dom';
-import Projects from '../projects/Projects';
-import AboutUs from '../about-us/AboutUs';
 
 export default function ButtonAppBar() {
   return (
@@ -41,14 +39,6 @@ export default function ButtonAppBar() {
                 <Link className="link" to="/aboutus">
                   <Button className="sbutton" color="white">About Us</Button>
                 </Link>
-                <Switch>
-                  <Route path="/projects">
-                    <Projects />
-                  </Route>
-                  <Route path="/aboutus">
-                    <AboutUs />
-                  </Route>
-                </Switch>
               </Router>
             </ButtonGroup>
           </div>

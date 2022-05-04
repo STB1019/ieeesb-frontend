@@ -3,6 +3,9 @@
     width: 100%;
     transition-duration: 300ms;
 
+    text-decoration: none;
+    color: black;
+
     /* puntatore e non selezionabilità testo */
     cursor: pointer;
     -webkit-touch-callout: none;

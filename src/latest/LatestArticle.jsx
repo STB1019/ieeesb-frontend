@@ -1,13 +1,14 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+import { Link } from 'react-router-dom';
 import Casa from '../assets/prova.jpg';
 import './LatestArticle.css';
 
 export default function LatestArticle() {
   /* la = latest article */
   return (
-    <Box id="la-whole">
+    <Link id="la-whole" to="/article">
       <Box id="la-image-container">
         <Box id="la-image" style={{ backgroundImage: `url(${Casa})` }} />
       </Box>
@@ -21,6 +22,6 @@ export default function LatestArticle() {
           </Typography>
         </Box>
       </Box>
-    </Box>
+    </Link>
   );
 }

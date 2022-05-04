@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
+import { Link } from 'react-router-dom';
 import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
 import json from './fileJson.json';
 import markdown from './markdown.md';
 import './Article.css';
@@ -11,12 +13,23 @@ export default function Article() {
     setMarkdownText(text);
   });
 
+  const authorDate = `${json.author}, ${json.date}`;
+
   return (
-    <Box>
-      <p id="a">{json.title}</p>
-      <Box id="article-markdown">
-        <ReactMarkdown>{markdownText}</ReactMarkdown>
+    <Link id="article-link" to="/">
+      <Box id="article-whole">
+        <Box id="article">
+          <Typography variant="h3" id="article-title">{json.title}</Typography>
+          <Typography variant="h4" id="article-subtitle">{json.subtitle}</Typography>
+          <Typography variant="h6" id="article-author-date">{authorDate}</Typography>
+          <Box id="article-image-container">
+            <img id="article-image" src={json.image} alt="errore" />
+          </Box>
+          <Box id="article-markdown">
+            <ReactMarkdown>{markdownText}</ReactMarkdown>
+          </Box>
+        </Box>
       </Box>
-    </Box>
+    </Link>
   );
 }

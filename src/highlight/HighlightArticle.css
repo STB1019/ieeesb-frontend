@@ -5,6 +5,9 @@
     transition-duration: 300ms;
     margin: 10px;
 
+    text-decoration: none;
+    color: white;
+
     /* puntatore e non selezionabilità testo */
     cursor: pointer;
     -webkit-touch-callout: none;
@@ -56,10 +59,9 @@
 }
 
 #ha-article-title {
-    color: white;
     font-weight: bold;
 }
 
 #ha-article-subtitle {
-    color: white;
+    /**/
 }

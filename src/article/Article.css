@@ -1,4 +1,89 @@
-#article-markdown h2 {
-    color: blue;
-    font-size: small;
+#article-link {
+    text-decoration: none;
+    color: black;
+    text-align: justify;
+}
+
+#article-whole {
+    width: 100%;
+}
+
+#article {
+    width: 80%;
+    margin: 30px auto;
+}
+
+#article-title {
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+#article-subtitle {
+    margin-bottom: 12px;
+    font-size: xx-large;
+}
+
+#article-author-date {
+    margin-bottom: 9px;
+    text-align: right;
+    color: gray;
+}
+
+#article-image-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#article-image {
+    width: 50%;
+    margin: 10px auto;
+    display: block;
+}
+
+@media (max-width: 600px) {
+    /* telefono */
+
+    #article {
+        margin: 30px 20px;
+    }
+
+    #article-title {
+        font-size: xx-large;
+        font-weight: 600;
+        margin-bottom: 12px;
+    }
+    
+    #article-subtitle {
+        font-size: x-large;
+        margin-bottom: 9px;
+    }
+    
+    #article-author-date {
+        font-size: large;
+        margin-bottom: 6px;
+    }
+
+}
+
+@media (min-width: 600px) {
+    /* grandi telefoni e piccoli tablet */
+
+}
+
+@media (min-width: 1008px) {
+    /* grandi tablet e laptop */
+
+}
+
+@media (min-width: 1320px) {
+    /* grandi laptop e desktop */
+
+    #article-whole {
+        width: 1300px;
+        margin: 30px auto;
+    }
+
+    #article {
+    }
+
 }

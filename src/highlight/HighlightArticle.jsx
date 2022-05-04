@@ -2,13 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+import { Link } from 'react-router-dom';
 import Casa from '../assets/prova.jpg';
 import './HighlightArticle.css';
 
 export default function HighlightArticle({ showSubtitle }) {
   /* ha = highlight article */
   return (
-    <Box id="ha-whole">
+    <Link id="ha-whole" to="/article">
       <Box id="ha-image-container">
         <Box id="ha-image" style={{ backgroundImage: `url(${Casa})` }}>
           <Box id="ha-text-container">
@@ -27,7 +28,7 @@ export default function HighlightArticle({ showSubtitle }) {
           </Box>
         </Box>
       </Box>
-    </Box>
+    </Link>
   );
 }
 
