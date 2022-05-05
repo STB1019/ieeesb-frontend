@@ -4,7 +4,7 @@ import {
   BrowserRouter as Router, Switch, Route,
 } from 'react-router-dom';
 
-/* import Navbar from './navbar/Navbar'; */
+import Navbar from './navbar/Navbar';
 import Article from './article/Article';
 import Highlight from './highlight/Highlight';
 import Latest from './latest/Latest';
@@ -16,7 +16,7 @@ export default function App() {
     <div className="App">
       <Router>
         <ScrollToTop />
-        {/* <Navbar /> */}
+        <Navbar />
         <Switch>
           <Route path="/article">
             <Article />

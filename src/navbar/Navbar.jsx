@@ -14,9 +14,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 import './Navbar.css';
-import {
-  Link, BrowserRouter as Router,
-} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function ButtonAppBar() {
   return (
@@ -29,7 +27,7 @@ export default function ButtonAppBar() {
             </IconButton>
 
             <ButtonGroup variant="text" aria-label="text button group">
-              <Router>
+              <Box>
                 <Link className="link" to="/">
                   <Button className="sbutton" color="white">Home</Button>
                 </Link>
@@ -39,7 +37,7 @@ export default function ButtonAppBar() {
                 <Link className="link" to="/aboutus">
                   <Button className="sbutton" color="white">About Us</Button>
                 </Link>
-              </Router>
+              </Box>
             </ButtonGroup>
           </div>
           <ButtonGroup variant="text" aria-label="text button group">

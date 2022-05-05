@@ -1,11 +1,6 @@
-#article-link {
-    text-decoration: none;
-    color: black;
-    text-align: justify;
-}
-
 #article-whole {
     width: 100%;
+    text-align: justify;
 }
 
 #article {
@@ -20,7 +15,7 @@
 
 #article-subtitle {
     margin-bottom: 12px;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 #article-author-date {
