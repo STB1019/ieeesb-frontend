@@ -1,12 +1,14 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { Link } from 'react-router-dom';
 import Casa from '../assets/prova.jpg';
 import './HighlightArticle.css';
 
-export default function HighlightArticle({ showSubtitle }) {
+export default function HighlightArticle(props) {
+  const { showSubtitle } = props;
+  // const { json } = props;
+
   /* ha = highlight article */
   return (
     <Link id="ha-whole" to="/article">
@@ -31,9 +33,3 @@ export default function HighlightArticle({ showSubtitle }) {
     </Link>
   );
 }
-
-HighlightArticle.propTypes = {
-  showSubtitle: PropTypes.bool,
-};
-
-HighlightArticle.defaultProps = { showSubtitle: false };
