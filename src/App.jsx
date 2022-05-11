@@ -18,7 +18,7 @@ export default function App() {
         <ScrollToTop />
         <Navbar />
         <Switch>
-          <Route path="/article">
+          <Route path="/articles/:id">
             <Article />
           </Route>
           <Route path="/">

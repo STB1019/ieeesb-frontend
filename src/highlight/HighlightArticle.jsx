@@ -10,7 +10,7 @@ export default function HighlightArticle(props) {
 
   /* ha = highlight article */
   return (
-    <Link id="ha-whole" to="/article">
+    <Link id="ha-whole" to={`/articles/${json.id}`}>
       <Box id="ha-image-container">
         <Box id="ha-image" style={{ backgroundImage: `url(${json.image})` }}>
           <Box id="ha-text-container">

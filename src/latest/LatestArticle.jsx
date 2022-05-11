@@ -9,8 +9,7 @@ export default function LatestArticle(props) {
 
   /* la = latest article */
   return (
-    <Link id="la-whole" to={`/article-${json.id}`}>
-      {/* sistemare il caricamento di articoli in base a id diversi, ma renderizzando lo stesso componente <Article> */}
+    <Link id="la-whole" to={`/articles/${json.id}`}>
       <Box id="la-image-container">
         <Box id="la-image" style={{ backgroundImage: `url(${json.image})` }} />
       </Box>
