@@ -4,7 +4,11 @@ import Typography from '@mui/material/Typography';
 import LatestArticle from './LatestArticle';
 import './Latest.css';
 
+import { getLatests } from '../APIService';
+
 export default function Latest() {
+  const jsonMatrix = getLatests();
+
   /* l = latest */
   return (
     <Box id="latest">
@@ -12,21 +16,13 @@ export default function Latest() {
         <Typography variant="h2" id="latest-title">
           Latest News
         </Typography>
-        <Box className="article-list">
-          <LatestArticle />
-          <LatestArticle />
-          <LatestArticle />
-        </Box>
-        <Box className="article-list">
-          <LatestArticle />
-          <LatestArticle />
-          <LatestArticle />
-        </Box>
-        <Box className="article-list">
-          <LatestArticle />
-          <LatestArticle />
-          <LatestArticle />
-        </Box>
+        {jsonMatrix.map((jsonArray) => (
+          <Box className="article-list">
+            {jsonArray.map((jsonFile) => (
+              <LatestArticle json={jsonFile} />
+            ))}
+          </Box>
+        ))}
       </Box>
     </Box>
   );
