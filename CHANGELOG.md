@@ -1,3 +1,22 @@
+# [1.5.0](https://github.com/STB1019/ieeesb-frontend/compare/v1.4.2...v1.5.0) (2022-05-11)
+
+
+### Bug Fixes
+
+* fixata navbar, ora manda correttamente alla home ([75964b9](https://github.com/STB1019/ieeesb-frontend/commit/75964b98dc8fb63f25740c677a0b4338cd87e039))
+* gli url adeso funzionano anche se ci sono id diversi di articoli ([bf7490d](https://github.com/STB1019/ieeesb-frontend/commit/bf7490d23589ce5a9df98c82b31c8188d869da82))
+* import markdown funzionanti, inizio router in app.jsx ([9c6fe68](https://github.com/STB1019/ieeesb-frontend/commit/9c6fe68537dfcee464a0074a7761a0b0e4a3c5e2))
+* small fix ([a147111](https://github.com/STB1019/ieeesb-frontend/commit/a147111234fe0f809660ded2556f2f863d4050e5))
+
+
+### Features
+
+* articolo singolo quasi completo, sistemare il display in base alla dimensione dello schermo ([e50ca22](https://github.com/STB1019/ieeesb-frontend/commit/e50ca22a8649d7f763676d0af6ffe3e305744d2e))
+* commenti di Nikita su come fare un API Service ([3a41b2a](https://github.com/STB1019/ieeesb-frontend/commit/3a41b2a456fb499a7609e06c5b75af58fb2ad477))
+* file json letti da tutti i componenti ([24a11a4](https://github.com/STB1019/ieeesb-frontend/commit/24a11a475312a6b68334692ff13073ed03f1584b))
+* inizio articolo da file json ([62990ed](https://github.com/STB1019/ieeesb-frontend/commit/62990ed2c22e8a850f3bd9c1ce6e52f02bd545ff))
+* inizio passaggio json a articolo ([307ed56](https://github.com/STB1019/ieeesb-frontend/commit/307ed5665931c6dc52c9a0df7d4ca47403063cc1))
+
 ## [1.4.2](https://github.com/STB1019/ieeesb-frontend/compare/v1.4.1...v1.4.2) (2022-03-26)
 
 
