@@ -7,16 +7,15 @@ import './Article.css';
 import { getArticleFromId } from '../APIService';
 
 export default function Article() {
-  /* const { id } = props; */
-  /* const json = await getArticleFromId(id); */
-  const json = getArticleFromId();
+  const id = window.location.pathname.split('/').pop();
+  const json = getArticleFromId(id);
 
   const authorDate = `${json.author}, ${json.date}`;
 
   return (
     <Box id="article-whole">
       <Box id="article">
-        <p>{json.id}</p>
+        {/* <p>{id}</p> */}
         <Typography variant="h3" id="article-title">{json.title}</Typography>
         <Typography variant="h5" id="article-subtitle">{json.subtitle}</Typography>
         <Typography variant="h6" id="article-author-date">{authorDate}</Typography>
