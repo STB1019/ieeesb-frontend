@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/STB1019/ieeesb-frontend/compare/v1.5.0...v1.5.1) (2022-05-12)
+
+
+### Bug Fixes
+
+* il componente Article riconosce autonomamente l'id ([45e4b48](https://github.com/STB1019/ieeesb-frontend/commit/45e4b48333f0cacf500b5f97d89d6af19db8d0af))
+
 # [1.5.0](https://github.com/STB1019/ieeesb-frontend/compare/v1.4.2...v1.5.0) (2022-05-11)
 
 
