@@ -1,28 +1,29 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import LatestArticle from './LatestArticle';
-import './Latest.css';
+// import ArticlesCard from './ArticlesCard';
+import './Articles.css';
 
-import { getLatests } from '../APIService';
+// import { getLatests } from '../APIService';
 
-export default function Latest() {
-  const jsonMatrix = getLatests();
+export default function Articles() {
+  // const jsonMatrix = getLatests();
 
   /* l = latest */
   return (
     <Box id="latest">
       <Box id="l-whole">
         <Typography variant="h2" id="l-title">
-          Latest News
+          Articoli
         </Typography>
-        {jsonMatrix.map((jsonArray) => (
+        <Typography variant="h1" color="red">DA FARE</Typography>
+        {/* jsonMatrix.map((jsonArray) => (
           <Box className="article-list">
             {jsonArray.map((jsonFile) => (
-              <LatestArticle json={jsonFile} />
+              <ArticlesCard json={jsonFile} />
             ))}
           </Box>
-        ))}
+        )) */}
       </Box>
     </Box>
   );

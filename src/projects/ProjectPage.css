@@ -1,0 +1,83 @@
+#project-whole {
+    width: 100%;
+    text-align: justify;
+}
+
+#project {
+    width: 80%;
+    margin: 30px auto;
+}
+
+#project-title {
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+#project-members {
+    margin-bottom: 9px;
+    color: gray;
+}
+
+#project-subtitle {
+    margin-bottom: 12px;
+    font-size: x-large;
+}
+
+#project-image-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#project-image {
+    width: 50%;
+    margin: 10px auto;
+    display: block;
+}
+
+@media (max-width: 600px) {
+    /* telefono */
+
+    #project {
+        margin: 30px 20px;
+    }
+
+    #project-title {
+        font-size: xx-large;
+        font-weight: 600;
+        margin-bottom: 12px;
+    }
+    
+    #project-members{
+        font-size: large;
+        margin-bottom: 6px;
+    }
+
+    #project-subtitle {
+        font-size: x-large;
+        margin-bottom: 9px;
+    }
+
+}
+
+@media (min-width: 600px) {
+    /* grandi telefoni e piccoli tablet */
+
+}
+
+@media (min-width: 1008px) {
+    /* grandi tablet e laptop */
+
+}
+
+@media (min-width: 1320px) {
+    /* grandi laptop e desktop */
+
+    #project-whole {
+        width: 1300px;
+        margin: 30px auto;
+    }
+
+    #project {
+    }
+
+}
