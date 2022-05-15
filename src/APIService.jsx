@@ -2,7 +2,7 @@ import highlights from './article/highlights.json';
 import latests from './article/latests.json';
 import article from './article/article.json';
 
-// const baseUrl = 'prova';
+// const baseUrl = '127.0.0.1:8081';
 
 export default function lol() {
   return 0;
