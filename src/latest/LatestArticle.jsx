@@ -19,7 +19,7 @@ export default function LatestArticle(props) {
             {json.title}
           </Typography>
           <Typography variant="subtitle1">
-            {json.title}
+            {json.subtitle}
           </Typography>
         </Box>
       </Box>

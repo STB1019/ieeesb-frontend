@@ -2,13 +2,15 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+import ArticlesCard from '../articles/ArticlesCard';
 import './ProjectPage.css';
 
-import { getProjectFromName } from '../APIService';
+import { getProjectFromName, getArticlesOfProject } from '../APIService';
 
 export default function ProjectPage() {
   const name = window.location.pathname.split('/').pop();
   const json = getProjectFromName(name);
+  const jsonArray = getArticlesOfProject(name);
 
   return (
     <Box id="project-whole">
@@ -23,6 +25,9 @@ export default function ProjectPage() {
         <Box id="project-markdown">
           <ReactMarkdown>{json.markdown}</ReactMarkdown>
         </Box>
+        {jsonArray.map((jsonFile) => (
+          <ArticlesCard json={jsonFile} />
+        ))}
       </Box>
     </Box>
   );

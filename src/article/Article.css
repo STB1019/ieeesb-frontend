@@ -39,7 +39,8 @@
     /* telefono */
 
     #article {
-        margin: 30px 20px;
+        width: 90%;
+        margin: 30px auto;
     }
 
     #article-title {

@@ -4,8 +4,6 @@ import {
   BrowserRouter as Router, Switch, Route,
 } from 'react-router-dom';
 
-import Typography from '@mui/material/Typography';
-
 import ScrollToTop from './ScrollToTop';
 import Navbar from './navbar/Navbar';
 import Highlight from './highlight/Highlight';
@@ -19,8 +17,8 @@ import AboutUs from './about-us/AboutUs';
 export default function App() {
   return (
     <div className="App">
-      <Typography variant="h5" color="red">far sì che la navbar diventi come quella destop appena possibile, quindi prima della modalità tablet e dopo la telefono</Typography>
       <Router>
+        <h1>Da fare: layout sia di ProgectPage che di Article; poi sistemare il path: /projects/nome/articles/id; includere il nome del progetto `&quot;`ovunque`&quot;`</h1>
         <ScrollToTop />
         <Navbar />
         <Switch>
