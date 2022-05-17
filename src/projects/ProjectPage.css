@@ -1,35 +1,34 @@
-#article-whole {
+#project-whole {
     width: 100%;
     text-align: justify;
 }
 
-#article {
+#project {
     width: 80%;
     margin: 30px auto;
 }
 
-#article-title {
+#project-title {
     margin-bottom: 15px;
     font-weight: 500;
 }
 
-#article-subtitle {
+#project-members {
+    margin-bottom: 9px;
+    color: gray;
+}
+
+#project-subtitle {
     margin-bottom: 12px;
     font-size: x-large;
 }
 
-#article-author-date {
-    margin-bottom: 9px;
-    text-align: right;
-    color: gray;
-}
-
-#article-image-container {
+#project-image-container {
     width: 100%;
     margin: 0 auto;
 }
 
-#article-image {
+#project-image {
     width: 50%;
     margin: 10px auto;
     display: block;
@@ -38,25 +37,24 @@
 @media (max-width: 600px) {
     /* telefono */
 
-    #article {
-        width: 90%;
+    #project {
         margin: 30px auto;
     }
 
-    #article-title {
+    #project-title {
         font-size: xx-large;
         font-weight: 600;
         margin-bottom: 12px;
     }
     
-    #article-subtitle {
-        font-size: x-large;
-        margin-bottom: 9px;
-    }
-    
-    #article-author-date {
+    #project-members{
         font-size: large;
         margin-bottom: 6px;
+    }
+
+    #project-subtitle {
+        font-size: x-large;
+        margin-bottom: 9px;
     }
 
 }
@@ -74,12 +72,12 @@
 @media (min-width: 1320px) {
     /* grandi laptop e desktop */
 
-    #article-whole {
+    #project-whole {
         width: 1300px;
         margin: 30px auto;
     }
 
-    #article {
+    #project {
     }
 
 }

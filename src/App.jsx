@@ -4,29 +4,45 @@ import {
   BrowserRouter as Router, Switch, Route,
 } from 'react-router-dom';
 
+import ScrollToTop from './ScrollToTop';
 import Navbar from './navbar/Navbar';
-import Article from './article/Article';
 import Highlight from './highlight/Highlight';
 import Latest from './latest/Latest';
+import Projects from './projects/Projects';
+import ProjectPage from './projects/ProjectPage';
+import Articles from './articles/Articles';
+import Article from './article/Article';
 import AboutUs from './about-us/AboutUs';
-import ScrollToTop from './ScrollToTop';
 
 export default function App() {
   return (
     <div className="App">
       <Router>
+        {/* Da fare:
+        layout sia di ProgectPage che di Article;
+        includere il nome del progetto un po' "ovunque"
+        */}
         <ScrollToTop />
         <Navbar />
         <Switch>
-          <Route path="/articles/:id">
+          <Route path="/projects/:id/:id">
             <Article />
+          </Route>
+          <Route path="/projects/:id">
+            <ProjectPage />
+          </Route>
+          <Route path="/projects">
+            <Projects />
+          </Route>
+          <Route path="/articles">
+            <Articles />
+          </Route>
+          <Route path="/aboutus">
+            <AboutUs />
           </Route>
           <Route path="/">
             <Highlight />
             <Latest />
-          </Route>
-          <Route path="/aboutus">
-            <AboutUs />
           </Route>
         </Switch>
       </Router>

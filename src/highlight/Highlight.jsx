@@ -7,6 +7,7 @@ import { getHighlights } from '../APIService';
 
 export default function Highlight() {
   const jsonFiles = getHighlights();
+  
   /* h = highlight */
   return (
     <Box id="highlight">

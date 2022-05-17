@@ -1,9 +1,7 @@
 {
-    "id": "prova",
-    "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. ",
-    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.",
-    "author": "Autore",
-    "date": "02-04-2022",
+    "name": "nome 2",
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. ",
+    "members": "Autori",
     "image": "https://www.corriere.it/methode_image/2021/04/07/Spettacoli/Foto%20Spettacoli/nikita4-cf-cropped-144-8-1007-760.jpg",
     "markdown": "A paragraph with some text.\n\n## A heading\n\n* item 1\n* item 1\nA paragraph with some text.\n\n## A heading\n\n* item 1\n* item 1\nA paragraph with some text.\n\n## A heading\n\n* item 1\n* item 1\n\nA paragraph with some text.\n\n## A heading\n\n* item 1\n* item 1"
 }

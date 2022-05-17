@@ -1,12 +1,12 @@
-#latest {
+#articles {
   margin: 30px 10px;
 }
 
-#l-whole {
+#a-whole {
   width: 100%;
 }
 
-#l-title {
+#a-title {
   margin: 10px 0;
   font-weight: bold;
   color: #00629B;
@@ -15,12 +15,8 @@
 @media (max-width: 600px) {
   /* telefono */
 
-  #l-whole {
+  #a-whole {
     width: 100%;
-  }
-
-  .article-list {
-    display: block;
   }
 
 }
@@ -28,12 +24,8 @@
 @media (min-width: 600px) {
   /* grandi telefoni e piccoli tablet */
 
-  #l-whole {
+  #a-whole {
     width: 100%;
-  }
-
-  .article-list {
-    display: flex;
   }
 
 }
@@ -41,12 +33,8 @@
 @media (min-width: 1008px) {
   /* grandi tablet e laptop */
 
-  #l-whole {
+  #a-whole {
     width: 100%;
-  }
-  
-  .article-list {
-    display: flex;
   }
 
 }
@@ -54,13 +42,9 @@
 @media (min-width: 1320px) {
   /* grandi laptop e desktop */
 
-  #l-whole {
+  #a-whole {
     width: 1300px;
     margin: 30px auto;
-}
-  
-  .article-list {
-    display: flex;
   }
 
 }

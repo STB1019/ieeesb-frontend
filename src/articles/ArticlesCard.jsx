@@ -2,22 +2,22 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { Link } from 'react-router-dom';
-import './LatestArticle.css';
+import './ArticlesCard.css';
 
-export default function LatestArticle(props) {
+export default function ArticlesCard(props) {
   const { json } = props;
-  
+
   const projectURL = json.project.replace(/\W+/g, '-').toLowerCase();
 
-  /* la = latest article */
+  /* ac = articles card */
   return (
-    <Link id="la-whole" to={`/projects/${projectURL}/${json.id}`}>
-      <Box id="la-image-container">
-        <Box id="la-image" style={{ backgroundImage: `url(${json.image})` }} />
+    <Link id="ac-whole" to={`/projects/${projectURL}/${json.id}`}>
+      <Box id="ac-image-container">
+        <Box id="ac-image" style={{ backgroundImage: `url(${json.image})` }} />
       </Box>
-      <Box id="la-text-container">
-        <Box id="la-text">
-          <Typography variant="h5" id="la-article-title">
+      <Box id="ac-text-container">
+        <Box id="ac-text">
+          <Typography variant="h5" id="ac-article-title">
             {json.title}
           </Typography>
           <Typography variant="subtitle1">

@@ -1,4 +1,4 @@
-#la-whole {
+#pc-whole {
     border-radius: 3px;
     width: 100%;
     transition-duration: 300ms;
@@ -16,39 +16,39 @@
     user-select: none;
 }
 
-#la-whole:hover {
+#pc-whole:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#la-image-container {
+#pc-image-container {
     height: 25vh;
     padding: 10px;
 }
 
-#la-image {
-    width: 100%;
-    height: 100%;
+#pc-image {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+    height: 100%;
     border-radius: 3px;
     transition-duration: 300ms;
 }
 
-#la-image:hover {
+#pc-image:hover {
     box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.05);
 }
 
-#la-text-container {
+#pc-text-container {
     padding: 10px;
     padding-top: 0;
 }
 
-#la-text {
+#pc-text {
     width: 100%;
     text-align: left;
 }
 
-#la-article-title {
+#pc-article-title {
     font-weight: bold;
 }

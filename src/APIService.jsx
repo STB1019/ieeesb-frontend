@@ -1,6 +1,9 @@
-import highlights from './article/highlights.json';
-import latests from './article/latests.json';
-import article from './article/article.json';
+import highlights from './json-prova/highlights.json';
+import latests from './json-prova/latests.json';
+import projects from './json-prova/projects.json';
+import project from './json-prova/project.json';
+import articles from './json-prova/articles.json';
+import article from './json-prova/article.json';
 
 // const baseUrl = '127.0.0.1:8081';
 
@@ -32,6 +35,22 @@ export function getHighlights() {
 
 export function getLatests() {
   return latests;
+}
+
+export function getProjects() {
+  return projects;
+}
+
+export function getProjectFromName() {
+  return project;
+}
+
+export function getArticlesOfProject() {
+  return articles;
+}
+
+export function getArticleList() {
+  return articles;
 }
 
 export function getArticleFromId() {

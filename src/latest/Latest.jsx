@@ -13,7 +13,7 @@ export default function Latest() {
   return (
     <Box id="latest">
       <Box id="l-whole">
-        <Typography variant="h2" id="latest-title">
+        <Typography variant="h2" id="l-title">
           Latest News
         </Typography>
         {jsonMatrix.map((jsonArray) => (
