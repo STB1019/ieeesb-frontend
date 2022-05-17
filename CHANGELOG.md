@@ -1,3 +1,17 @@
+# [1.6.0](https://github.com/STB1019/ieeesb-frontend/compare/v1.5.1...v1.6.0) (2022-05-17)
+
+
+### Bug Fixes
+
+* aggiunta url base ([a8cf1a9](https://github.com/STB1019/ieeesb-frontend/commit/a8cf1a9d13f734283d26c6fd64a4ce2f2df9ec1c))
+
+
+### Features
+
+* aggiunta breadcrumbs ([414ddbc](https://github.com/STB1019/ieeesb-frontend/commit/414ddbcb1f020739ac9a7c86b6a682e2aa4fc171))
+* elemento lista di articoli completato ([58d5703](https://github.com/STB1019/ieeesb-frontend/commit/58d57031e5564b1f9fed3573227c7d1fc4e32eaa))
+* vari cambiamenti, inizio pagina projects e sistemazione navbar; pagina articles da fare ([a1704ed](https://github.com/STB1019/ieeesb-frontend/commit/a1704ed0d021071fe3b767ede0ef10c5f4ab9838))
+
 ## [1.5.1](https://github.com/STB1019/ieeesb-frontend/compare/v1.5.0...v1.5.1) (2022-05-12)
 
 
