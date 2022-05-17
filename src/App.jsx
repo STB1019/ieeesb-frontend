@@ -18,18 +18,21 @@ export default function App() {
   return (
     <div className="App">
       <Router>
-        <h1>Da fare: layout sia di ProgectPage che di Article; poi sistemare il path: /projects/nome/articles/id; includere il nome del progetto `&quot;`ovunque`&quot;`</h1>
+        {/* Da fare:
+        layout sia di ProgectPage che di Article;
+        includere il nome del progetto un po' "ovunque"
+        */}
         <ScrollToTop />
         <Navbar />
         <Switch>
+          <Route path="/projects/:id/:id">
+            <Article />
+          </Route>
           <Route path="/projects/:id">
             <ProjectPage />
           </Route>
           <Route path="/projects">
             <Projects />
-          </Route>
-          <Route path="/articles/:id">
-            <Article />
           </Route>
           <Route path="/articles">
             <Articles />

@@ -6,10 +6,12 @@ import './LatestArticle.css';
 
 export default function LatestArticle(props) {
   const { json } = props;
+  
+  const projectURL = json.project.replace(/\W+/g, '-').toLowerCase();
 
   /* la = latest article */
   return (
-    <Link id="la-whole" to={`/articles/${json.id}`}>
+    <Link id="la-whole" to={`/projects/${projectURL}/${json.id}`}>
       <Box id="la-image-container">
         <Box id="la-image" style={{ backgroundImage: `url(${json.image})` }} />
       </Box>

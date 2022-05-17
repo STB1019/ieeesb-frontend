@@ -7,9 +7,11 @@ import './ProjectCard.css';
 export default function ProjectCard(props) {
   const { json } = props;
 
+  const projectURL = json.name.replace(/\W+/g, '-').toLowerCase();
+
   /* pc = project card */
   return (
-    <Link id="pc-whole" to={`/projects/${json.name}`}>
+    <Link id="pc-whole" to={`/projects/${projectURL}`}>
       <Box id="pc-image-container">
         <Box id="pc-image" style={{ backgroundImage: `url(${json.image})` }} />
       </Box>

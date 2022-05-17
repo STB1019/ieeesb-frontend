@@ -8,9 +8,11 @@ export default function HighlightArticle(props) {
   const { showSubtitle } = props;
   const { json } = props;
 
+  const projectURL = json.project.replace(/\W+/g, '-').toLowerCase();
+
   /* ha = highlight article */
   return (
-    <Link id="ha-whole" to={`/articles/${json.id}`}>
+    <Link id="ha-whole" to={`/projects/${projectURL}/${json.id}`}>
       <Box id="ha-image-container">
         <Box id="ha-image" style={{ backgroundImage: `url(${json.image})` }}>
           <Box id="ha-text-container">

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+import Breadcrumbs from '../Breadcrumbs';
 import './Article.css';
 
 import { getArticleFromId } from '../APIService';
@@ -15,7 +16,7 @@ export default function Article() {
   return (
     <Box id="article-whole">
       <Box id="article">
-        {/* <p>{id}</p> */}
+        <Breadcrumbs current={json.title} />
         <Typography variant="h3" id="article-title">{json.title}</Typography>
         <Typography variant="h5" id="article-subtitle">{json.subtitle}</Typography>
         <Typography variant="h6" id="article-author-date">{authorDate}</Typography>
