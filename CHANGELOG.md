@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/STB1019/ieeesb-frontend/compare/v1.6.0...v1.6.1) (2022-05-18)
+
+
+### Bug Fixes
+
+* fix breadcrums ([e411f3c](https://github.com/STB1019/ieeesb-frontend/commit/e411f3cac518e80d5f4171ae432f510af00cfa7c))
+
 # [1.6.0](https://github.com/STB1019/ieeesb-frontend/compare/v1.5.1...v1.6.0) (2022-05-17)
 
 
