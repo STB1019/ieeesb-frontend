@@ -16,7 +16,7 @@ export default function ProjectPage() {
   return (
     <Box id="project-whole">
       <Box id="project">
-        <Breadcrumbs current={json.name} />
+        <Breadcrumbs crumbs={['Progetti', json.name]} />
         <Typography variant="h3" id="project-title">{json.name}</Typography>
         <Typography variant="h6" id="project-members">{json.members}</Typography>
         <Typography variant="h5" id="project-subtitle">{json.subtitle}</Typography>

@@ -16,7 +16,7 @@ export default function Article() {
   return (
     <Box id="article-whole">
       <Box id="article">
-        <Breadcrumbs current={json.title} />
+        <Breadcrumbs crumbs={['Progetti', json.project, json.title]} />
         <Typography variant="h3" id="article-title">{json.title}</Typography>
         <Typography variant="h5" id="article-subtitle">{json.subtitle}</Typography>
         <Typography variant="h6" id="article-author-date">{authorDate}</Typography>

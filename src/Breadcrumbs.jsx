@@ -5,14 +5,16 @@ import Link from '@mui/material/Link';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 
 export default function Breadcrumbs(props) {
-  const { current } = props;
+  const { crumbs } = props;
 
   const URLParts = window.location.pathname.replace(/-/g, ' ').split('/');
   const firstDestination = `/${URLParts[1]}`;
   const destinations = [firstDestination];
+  const indexes = [0];
   for (let i = 2; i < URLParts.length - 1; i++) {
     const temp = `${destinations[i - 2]}/${URLParts[i]}`;
     destinations.push(temp);
+    indexes.push(i - 1);
   }
 
   return (
@@ -20,13 +22,13 @@ export default function Breadcrumbs(props) {
       separator={<NavigateNextIcon fontSize="small" />}
       aria-label="breadcrumb"
     >
-      {destinations.map((url) => (
-        <Link underline="hover" color="inherit" href={url}>
-          {url.split('/').pop()}
+      {indexes.map((i) => (
+        <Link underline="hover" color="inherit" href={destinations[i]}>
+          {crumbs[i]}
         </Link>
       ))}
       <Typography color="text.primary">
-        {current}
+        {crumbs[crumbs.length - 1]}
       </Typography>
     </MUIBreadcrumbs>
   );
