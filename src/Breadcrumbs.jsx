@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import MUIBreadcrumbs from '@mui/material/Breadcrumbs';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
@@ -6,7 +6,7 @@ import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 
 export default function Breadcrumbs(props) {
   const { crumbs } = props;
-
+  
   const URLParts = window.location.pathname.replace(/-/g, ' ').split('/');
   const firstDestination = `/${URLParts[1]}`;
   const destinations = [firstDestination];
@@ -23,11 +23,11 @@ export default function Breadcrumbs(props) {
       aria-label="breadcrumb"
     >
       {indexes.map((i) => (
-        <Link underline="hover" color="inherit" href={destinations[i]}>
+        <Link underline="hover" color="inherit" key={i + 1} href={destinations[i]}>
           {crumbs[i]}
         </Link>
       ))}
-      <Typography color="text.primary">
+      <Typography color="text.primary" key={crumbs.length}>
         {crumbs[crumbs.length - 1]}
       </Typography>
     </MUIBreadcrumbs>

@@ -18,7 +18,8 @@
         "max-len": 0,
         "import/no-named-as-default": 0,
         "react/prop-types": "off",
-        "no-plusplus": 0
+        "no-plusplus": 0,
+        "no-console": 0
     },
     "globals": {
         "document": false

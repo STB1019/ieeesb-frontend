@@ -6,7 +6,7 @@ import './LatestArticle.css';
 
 export default function LatestArticle(props) {
   const { json } = props;
-  
+
   const projectURL = json.project.replace(/\W+/g, '-').toLowerCase();
 
   /* la = latest article */
@@ -17,6 +17,11 @@ export default function LatestArticle(props) {
       </Box>
       <Box id="la-text-container">
         <Box id="la-text">
+          <Typography variant="h6" id="la-article-title" color="gray">
+            [
+            {json.project}
+            ]
+          </Typography>
           <Typography variant="h5" id="la-article-title">
             {json.title}
           </Typography>
