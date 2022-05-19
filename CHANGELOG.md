@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/STB1019/ieeesb-frontend/compare/v1.6.1...v1.7.0) (2022-05-19)
+
+
+### Features
+
+* aggiunta GET ([1db33a4](https://github.com/STB1019/ieeesb-frontend/commit/1db33a4f522233218d711e30c4bc89a684c27f85))
+
 ## [1.6.1](https://github.com/STB1019/ieeesb-frontend/compare/v1.6.0...v1.6.1) (2022-05-18)
 
 
