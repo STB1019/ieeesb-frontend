@@ -1,0 +1,19 @@
+@media (max-width: 600px) {
+    /* telefono */
+
+}
+
+@media (min-width: 600px) {
+    /* grandi telefoni e piccoli tablet */
+
+}
+
+@media (min-width: 1008px) {
+    /* grandi tablet e laptop */
+
+}
+
+@media (min-width: 1320px) {
+    /* grandi laptop e desktop */
+
+}
