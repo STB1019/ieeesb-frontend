@@ -1,6 +1,5 @@
 import React from 'react';
 import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
 import LatestArticle from './LatestArticle';
 import './Latest.css';
 
@@ -9,15 +8,14 @@ import { getLatests } from '../APIService';
 export default function Latest() {
   const jsonMatrix = getLatests();
 
-  /* l = latest */
   return (
-    <Box id="latest">
-      <Box id="l-whole">
-        <Typography variant="h2" id="l-title">
+    <Box className="whole-margin">
+      <Box className="whole">
+        <h2 className="whole-title">
           Latest News
-        </Typography>
+        </h2>
         {jsonMatrix.map((jsonArray) => (
-          <Box className="article-list">
+          <Box className="grid-display">
             {jsonArray.map((jsonFile) => (
               <LatestArticle json={jsonFile} />
             ))}

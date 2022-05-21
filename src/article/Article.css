@@ -1,11 +1,5 @@
 #article-whole {
-    width: 100%;
     text-align: justify;
-}
-
-#article {
-    width: 80%;
-    margin: 30px auto;
 }
 
 #article-title {
@@ -21,7 +15,7 @@
 #article-author-date {
     margin-bottom: 9px;
     text-align: right;
-    color: gray;
+    color: rgb(83, 83, 83);
 }
 
 #article-image-container {
@@ -38,9 +32,8 @@
 @media (max-width: 600px) {
     /* telefono */
 
-    #article {
-        width: 90%;
-        margin: 30px auto;
+    #article-margin {
+        margin: 30px 20px;
     }
 
     #article-title {
@@ -73,13 +66,5 @@
 
 @media (min-width: 1320px) {
     /* grandi laptop e desktop */
-
-    #article-whole {
-        width: 1300px;
-        margin: 30px auto;
-    }
-
-    #article {
-    }
 
 }

@@ -19,7 +19,7 @@ export default function ButtonAppBar() {
   return (
     <Box id="navbar-whole">
       <AppBar id="navbar-appbar" position="static">
-        <Toolbar id="navbar-toolbar">
+        <Toolbar className="whole" id="navbar-toolbar">
           <Box id="navbar-links">
             <ButtonGroup variant="text" aria-label="text button group">
               <Box>

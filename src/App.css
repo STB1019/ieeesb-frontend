@@ -3,3 +3,82 @@
   height: 100%;
   width: 100%;
 }
+
+.whole-title {
+  margin: 10px 0;
+  font-weight: bold;
+  color: #00629B;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-size: 3.75rem;
+  line-height: 1.2;
+  letter-spacing: -0.00833em;
+}
+
+@media (max-width: 600px) {
+  /* telefono */
+
+  .whole-margin {
+    margin: 30px 10px;
+  }
+
+  .whole {
+    width: 100%;
+  }
+
+  .grid-display {
+    display: block;
+  }
+
+}
+
+@media (min-width: 600px) {
+  /* grandi telefoni e piccoli tablet */
+
+  .whole-margin {
+    margin: 30px 10px;
+  }
+
+  .whole {
+    width: 100%;
+  }
+
+  .grid-display {
+    display: flex;
+  }
+
+}
+
+@media (min-width: 1008px) {
+  /* grandi tablet e laptop */
+
+  .whole-margin {
+    margin: 30px 10px;
+  }
+
+  .whole {
+    width: 100%;
+  }
+
+  .grid-display {
+    display: flex;
+  }
+
+}
+
+@media (min-width: 1320px) {
+  /* grandi laptop e desktop */
+
+  .whole-margin {
+    width: 1300px;
+    margin: 30px auto;
+  }
+
+  .whole {
+    width: 1300px;
+  }
+
+  .grid-display {
+    display: flex;
+  }
+
+}

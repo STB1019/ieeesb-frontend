@@ -1,6 +1,5 @@
 import React from 'react';
 import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
 import ProjectCard from './ProjectCard';
 import './Projects.css';
 
@@ -9,15 +8,14 @@ import { getProjects } from '../APIService';
 export default function Projects() {
   const jsonMatrix = getProjects();
 
-  /* p = projects */
   return (
-    <Box id="projects">
-      <Box id="p-whole">
-        <Typography variant="h2" id="p-title">
+    <Box className="whole-margin">
+      <Box className="whole">
+        <h2 className="whole-title">
           Projects
-        </Typography>
+        </h2>
         {jsonMatrix.map((jsonArray) => (
-          <Box className="article-list">
+          <Box className="grid-display">
             {jsonArray.map((jsonFile) => (
               <ProjectCard json={jsonFile} />
             ))}

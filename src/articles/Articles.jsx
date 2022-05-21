@@ -1,6 +1,5 @@
 import React from 'react';
 import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
 import ArticlesCard from './ArticlesCard';
 import './Articles.css';
 
@@ -9,13 +8,12 @@ import { getArticleList } from '../APIService';
 export default function Articles() {
   const jsonArray = getArticleList();
 
-  /* a = articles */
   return (
-    <Box id="articles">
-      <Box id="a-whole">
-        <Typography variant="h2" id="a-title">
+    <Box className="whole-margin">
+      <Box className="whole">
+        <h2 className="whole-title">
           Articoli
-        </Typography>
+        </h2>
         {jsonArray.map((jsonFile) => (
           <ArticlesCard json={jsonFile} />
         ))}
