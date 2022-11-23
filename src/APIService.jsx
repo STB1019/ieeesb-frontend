@@ -3,9 +3,9 @@ import latests from './json-prova/latests.json';
 import projects from './json-prova/projects.json';
 import project from './json-prova/project.json';
 import articles from './json-prova/articles.json';
-// import article from './json-prova/article.json';
+import article from './json-prova/article.json';
 
-const baseUrl = '127.0.0.1:8081';
+// const baseUrl = '127.0.0.1:8081';
 
 export default function lol() {
   return 0;
@@ -23,9 +23,11 @@ export default function lol() {
   return data.posts;
 } */
 
-export async function getArticleFromId(id) {
-  const e = await fetch(`http://${baseUrl}/articles/${id}`);
-  const data = await e.json();
+// export async function getArticleFromId(id) {
+export async function getArticleFromId() {
+  /* const e = await fetch(`http://${baseUrl}/articles/${id}`);
+  const data = await e.json(); */
+  const data = article;
   return data;
 }
 

@@ -26,8 +26,8 @@ export default function Article() {
   const authorDate = `${json.author} - ${day}/${month}/${year}`;
 
   return (
-    <Box id="article-whole">
-      <Box id="article">
+    <Box id="article-margin">
+      <Box className="whole" id="article-whole">
         <Breadcrumbs crumbs={['Progetti', json.projectName, json.title]} />
         <Typography variant="h3" id="article-title">{json.title}</Typography>
         <Typography variant="h5" id="article-subtitle">{json.subtitle}</Typography>

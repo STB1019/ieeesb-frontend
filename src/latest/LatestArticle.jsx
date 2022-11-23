@@ -8,6 +8,7 @@ export default function LatestArticle(props) {
   const { json } = props;
 
   const projectURL = json.project.replace(/\W+/g, '-').toLowerCase();
+  const projectName = `[${json.project}]`;
 
   /* la = latest article */
   return (
@@ -17,10 +18,8 @@ export default function LatestArticle(props) {
       </Box>
       <Box id="la-text-container">
         <Box id="la-text">
-          <Typography variant="h6" id="la-article-title" color="gray">
-            [
-            {json.project}
-            ]
+          <Typography variant="h6" id="la-project-name">
+            {projectName}
           </Typography>
           <Typography variant="h5" id="la-article-title">
             {json.title}

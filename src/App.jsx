@@ -13,14 +13,15 @@ import ProjectPage from './projects/ProjectPage';
 import Articles from './articles/Articles';
 import Article from './article/Article';
 import AboutUs from './about-us/AboutUs';
+import Post from './post/Post';
 
 export default function App() {
   return (
     <div className="App">
       <Router>
         {/* Da fare:
-        layout sia di ProgectPage che di Article;
-        includere il nome del progetto un po' "ovunque"
+        layout di ProgectPage, di Article e di Articles
+        pagina per fare il POST
         */}
         <ScrollToTop />
         <Navbar />
@@ -39,6 +40,9 @@ export default function App() {
           </Route>
           <Route path="/aboutus">
             <AboutUs />
+          </Route>
+          <Route path="/post">
+            <Post />
           </Route>
           <Route path="/">
             <Highlight />
